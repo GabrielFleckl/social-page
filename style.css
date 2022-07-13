@@ -28,7 +28,7 @@ body {
 .container {
     text-align: center;
     width: 300px;
-    margin: 60px auto;
+    margin: 30px 0px 0px 0px auto;
 }
 
 img {
@@ -41,6 +41,11 @@ img.avatar {
     height: 150px;
     padding: 3.7px;
     border: var(--primary-color) solid 4px;
+}
+
+img.avatar:hover {
+    box-shadow: 0px 0px 25px 10px #2960be;
+    transition: 0.3s;
 }
 
 h1 {
@@ -66,7 +71,7 @@ i {
 
 ul {
     list-style: none;
-    margin: 48px 0;
+    margin: 38px 0;
 }
 
 ul li a {
@@ -81,10 +86,12 @@ ul li a {
     margin-bottom: 16px;
     border-radius: 6px;
     transition: background 400ms;
+    box-shadow: 1px 1px 15px 1px #4885ee3f;
 }
 
 ul li a:hover {
     background: var(--primary-color-dark);
+    transition: 0.2s;
 }
 
 footer {
